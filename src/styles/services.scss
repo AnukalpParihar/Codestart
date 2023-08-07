@@ -1,0 +1,44 @@
+$primary-color: #008080; /* define primary color */
+
+/* style for the carousel */
+.carousel {
+  margin-bottom: 2rem;
+  .legend {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0.5rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+  img {
+    height: 500px;
+    object-fit: cover;
+  }
+}
+
+// /* style for the services sections */
+// section {
+//   margin: 2rem 0;
+//   h2 {
+//     color: $primary-color;
+//     font-size: 2rem;
+//     margin-bottom: 1rem;
+//   }
+//   p {
+//     line-height: 1.5;
+//     margin-bottom: 1.5rem;
+//   }
+//   button {
+//     background-color: $primary-color;
+//     color: #fff;
+//     border: none;
+//     padding: 0.5rem 1rem;
+//     font-size: 1rem;
+//     cursor: pointer;
+//     &:hover {
+//       background-color: darken($primary-color, 10%);
+//     }
+//   }
+// }
